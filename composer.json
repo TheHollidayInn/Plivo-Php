@@ -1,0 +1,18 @@
+{
+    "name": "thehollidayinn/plivo-php",
+    "description": "A wrapper for the Plivo library",
+    "authors": [
+        {
+            "name": "Keith Holliday",
+            "email": "krh121791@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plivo\\": "src/"
+        }
+    }
+}
